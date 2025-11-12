@@ -1,0 +1,139 @@
+/* ==== FOND GLOBAL ==== */
+body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(145deg, #002a1c 0%, #003d2e 40%, #001f14 100%);
+background-attachment: fixed;
+color: #f0fff5;
+min-height: 100vh;
+}
+
+/* ==== HEADER ==== */
+header {
+background-color: #001e12;
+padding: 20px;
+border-bottom: 2px solid #00cc88;
+box-shadow: 0 0 15px #00cc8880;
+text-align: center;
+}
+
+h1 {
+margin: 0;
+font-size: 2.2rem;
+color: #aaffcc;
+text-shadow: 0 0 6px #00ffbf;
+}
+
+/* ==== NAVIGATION ==== */
+nav {
+margin-top: 15px;
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+nav button {
+background-color: #004d33;
+border: 1px solid #007a55;
+color: white;
+padding: 10px 20px;
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.3s ease;
+font-size: 1rem;
+box-shadow: 0 0 5px #007a55;
+}
+
+nav button:hover {
+background-color: #00aa77;
+box-shadow: 0 0 8px #00ffaa;
+}
+
+nav button.active {
+border: 2px solid #aaffcc;
+background-color: #00664d;
+box-shadow: 0 0 10px #00ffaa;
+}
+
+/* ==== CONTENU PRINCIPAL ==== */
+main {
+padding: 25px;
+max-width: 800px;
+margin: auto;
+}
+
+p {
+font-size: 1.1rem;
+line-height: 1.6;
+}
+
+/* ==== SECTION HERO (Prochaine prière) ==== */
+.hero-section {
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 15px;
+padding: 1.5rem;
+margin: 2rem auto;
+max-width: 600px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+.hero-section h2 {
+color: #aaffdd;
+margin-bottom: 1rem;
+font-size: 1.6rem;
+}
+
+.prayer-info {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.time-box {
+background-color: #004d40;
+color: #ffffff;
+padding: 1rem 1.5rem;
+border-radius: 10px;
+border: 1px solid #00c49a;
+box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.label {
+display: block;
+font-weight: bold;
+font-size: 1rem;
+margin-bottom: 0.3rem;
+}
+
+.time {
+font-size: 1.5rem;
+color: #aaffdd;
+}
+
+.location-box {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+color: #ffffff;
+font-size: 1rem;
+}
+/* QIBLA COMPASS */
+.compass {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 1.5rem;
+}
+
+.compass-svg {
+width: 200px;
+height: 200px;
+background: rgba(0, 50, 40, 0.3);
+border-radius: 50%;
+box-shadow: 0 0 15px #00ffaa88;
+}
